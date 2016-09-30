@@ -2,7 +2,8 @@
   "version": "1.0.0-*",
   "buildOptions": {
     "debugType": "portable",
-    "emitEntryPoint": true
+    "emitEntryPoint": true,
+    "allowUnsafe": true
   },
   "dependencies": {
     "Microsoft.NETCore.App": {
@@ -12,12 +13,11 @@
   },
   "frameworks": {
     "netcoreapp1.0": {
-      "dependencies": {
-      },
+      "dependencies": {},
       "imports": "dnxcore50"
     }
   },
   "runtimes": {
-        "win10-x64": {}
-      }
+    "win10-x64": {}
+  }
 }
