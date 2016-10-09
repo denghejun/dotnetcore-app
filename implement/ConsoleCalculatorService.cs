@@ -1,4 +1,3 @@
-using System;
 using service.contract;
 namespace service.implement
 {
